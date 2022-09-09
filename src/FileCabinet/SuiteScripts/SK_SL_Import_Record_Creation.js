@@ -38,7 +38,7 @@ define(['N/record', 'N/search','N/task'],
                     let intImportIfId = objRecord.save({enableSourcing: true,ignoreMandatoryFields: true});
                     log.debug({title:'CUSTOM RMA RECEIPT ITEM DETAILS',details:intImportIfId})  
                 }
-                else if(intSoId=='customrecord_skims_if_import')
+                else if(intRecType=='customrecord_skims_if_import' && intSoId)
                 {
                     let objRecord = record.create({type: 'customrecord_skims_if_import',isDynamic: true});
                     objRecord.setValue({fieldId:'custrecord_skims_if_import_so',value:intSoId})
