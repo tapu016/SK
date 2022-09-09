@@ -1,0 +1,22 @@
+<restlet scriptid="customscript_sk_rs_order_create">
+  <description>This Restlet Create by Tapendra for the sales order creation from Postman</description>
+  <isinactive>F</isinactive>
+  <name>SK RS Order Create</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/SK_RS_Order_Creation.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_sk_rs_order_create">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>RELEASED</status>
+      <title>SK RS Order Create</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>
